@@ -49,10 +49,14 @@ h1{
  	padding: 15 px; 
  	text-transform: uppercase;
 
- }  
+ }   
 
- #servicios h3{
+
+
+ #servicios  {
+ 	
  	padding: 50px;
+
  }
  #servicios h3{
  	text-align: center;  
@@ -65,6 +69,7 @@ h1{
 
  }
 #servicios .contenedor{
+ 	
  
  	display: flex; 
  	justify-content: center; 
@@ -73,6 +78,8 @@ h1{
 #servicios article {
 
 	margin:16; 
+
+
 } 
 
 #servicios img{
@@ -84,8 +91,9 @@ background: #0c1650;
 color: #fff;
 text-align: center;
 padding: 30px;
-}
-#Productos h2{
+} 
+
+#Productos h4{
 padding: 15px;
 text-transform: uppercase;
 }
@@ -95,15 +103,127 @@ display: flex;
 flex-wrap: wrap;
 justify-content: center;
 }
-.info-mas{
+ .Productos{
 margin: 60px;
 }
-.info-mas img{
+ .Productos img{
 width: 100px;
 height: 100px;
-border-radius: 50%;
-border: 7px solid #fff;
 }
+#guarderia{
+    background: grey;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+}
+#guarderia h2{
+    padding: 15px;
+    text-transform: uppercase;
+    text-align: center;
+}
+#guarderia .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Guarda{
+    margin: 60px;
+}
+.Guarda img{
+    width: 100px;
+    height: 100px;
+
+}
+#promociones{
+    background-image: linear-gradient(280deg, #f37b1f 0, #f37b1f 50%, #f37b1f 100%);
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+}
+#promociones h2{
+    padding: 15px;
+    text-transform: uppercase; 
+     text-align: center;
+}
+#promociones .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.pro{
+    margin: 60px;
+}
+.pro img{
+    width: 100px;
+    height: 100px;
+
+} 
+#ubicacion{
+
+	background: blueviolet;
+	color: greenyellow; 
+	text-align: center; 
+	padding: 50px;
+} 
+#ubicacion h1{
+
+	font-size:25px ; 
+	font-weight: bolder; 
+	text-transform: uppercase; 
+}
+#ubicacion .contenedor{
+
+	display: flex; 
+	padding: 35px; 
+	flex-wrap: wrap; 
+	justify-content: right;
+}
+#ubicacion .contenedor iframe{ 
+ 
+ width: 45%; 
+ border-radius: 10px solid green;
+
+ } 
+ #ubicacion .contenedor p{
+
+ 	padding: 40px; 
+ 	width: 50%; 
+ 	text-align: left; 
+
+ }
+ footer{
+
+ 	background: orangered; 
+
+
+ }
+
+ footer .contenedor{
+ 	display: flex; 
+ 	flex-wrap: wrap; 
+ 	justify-content: center;  
+ 	padding-bottom: 30px; 
+ 	color:black; 
+ } 
+ .copy{
+
+ 	font-size: 20px; 
+ 	padding: 20px; 
+ } 
+ .red-social{ 
+ 	width: 100%; 
+ 	padding: 20px; 
+  font-size: 30px;  
+  text-align: center;
+
+  }
+  .red-social a{
+  	color: black; 
+  	text-decoration: none;
+
+
+  }
+
 
 
 
